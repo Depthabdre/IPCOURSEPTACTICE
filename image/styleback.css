@@ -1,0 +1,7 @@
+div{
+    background-color: rgb(190, 185, 185);
+    background-image: url("MainAfter.webp");
+    opacity: 0.9;
+    background-repeat: space;
+    background-attachment: scroll;
+}

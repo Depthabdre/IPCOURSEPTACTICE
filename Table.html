@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+</head>
+<body>
+    <h1>Table with Rowspan, Colspan, and Borders</h1>
+    <table border="1"  width="100%">
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Scores</th>
+                <th rowspan="2">Remarks</th>
+            </tr>
+            <tr>
+                <th>Math</th>
+                <th>Science</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>85</td>
+                <td>90</td>
+                <td>Excellent</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>78</td>
+                <td >88</td> <!-- rowspan merges the Science column -->
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td colspan="2">Needs Improvement</td> <!-- colspan merges both Math and Science columns -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">End of Table</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
